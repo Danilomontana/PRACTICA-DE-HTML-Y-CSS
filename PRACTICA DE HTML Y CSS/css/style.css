@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #8f9cc9;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    box-shadow: 0 35px 55px ;
+}
+
+.foto-perfil img {
+    width: 350px;
+    height: auto;
+}
+.contenedor .lado-izquierdo {
+    padding: 40px;
+    background: #074f58;
+}
+.contenedor .lado-derecho {
+    position: relative;
+    left: 500px;
+    bottom: 770px;
+}
+.foto-perfil {
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
+}
+.foto-perfil img {
+    width: 249px;
+    height: 299px;  
+    box-shadow: 0 0 10px #796d6dd5;
+}
+.nombre-y-apellido{
+    font-size: small;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contenedor .lado-derecho .sobre-mi .titulo-sobre-mi{
+    position: relative;
+    right: 500px;
+    top: 765px;
+}
+.contenedor .texto1 {
+    position: relative;
+    right: 500px;
+    top: 790px;
+    text-align: left;
+}
+.contenedor .mi-desempeño{
+    position: relative;
+    right: 150px;
+    bottom: 150px;   
+}
+h3{
+    border-bottom: 2px solid #000000;
+}
+p, li {
+    margin: 5px 0;
+}
